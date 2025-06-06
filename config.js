@@ -64,7 +64,7 @@ ANTI_BAD: process.env.ANTI_BAD || "false",
 // anti bad words  
 MODE: process.env.MODE || "public",
 // public/private/inbox/group 
-ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 // kick user if share link 
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // auto voice messages
